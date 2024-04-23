@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b8a1658f0a.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <title>Inbox</title>
+</head>
+<body>
+    <div class="main-wrapper">
+        <nav class="navbar navbar-expand-xl main-navigation">
+            <div class="container-1660">
+                <div class="row d-flex align-items-center justify-content-between">
+                    <div class="col-10 col-xl-5">
+                        <div class="yourloca">
+                            <p class="m-0"><i class="fa-solid fa-location-dot"></i> 12610 Burbank Boulevard 7</p>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 d-none d-xl-block">
+                        <div class="mainlogo">
+                            <a href="index.html" class="d-block">
+                                <img src="images/login-pg-logo.png" class="inner-pg-logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-2 col-xl-5 text-end">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="fa fa-user-circle-o" aria-hidden="true">
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavId">
+                            <ul class="navbar-nav ms-auto">
+                                <h1 class="d-xl-none mb-5 mx-auto"><span><img src="./images/menustarleft.png"
+                                            alt="star-_icon"></span> Menu <span><img src="./images/menustarright.png"
+                                            alt=""></span></h1>
+                                <button id="closeButton" class="btn-close text-end d-xl-none"></button>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#" aria-current="page">Bookings
+                                        <span class="visually-hidden">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#">Inbox</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#">My Profile</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#">Help</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="inbox">
+            <div class="container-1200">
+                <div class="breadcrumb-bar">
+                    <a href="#"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+                </div>
+                <div class="login-head homehead py-5 d-flex align-items-center justify-content-between">
+                    <h1>Inbox</h1>
+                    <div class="mainlogo">
+                        <img src="images/login-pg-logo.png">
+                    </div>
+                </div>
+                <div class="chatbox pt-md-5">
+                    <!-- Heal Way message -->
+                    <div class="heal-msg">
+                        <div class="d-flex">
+                            <div class="heal-msg-img">
+                                <img src="images/login-pg-logo.png">
+                            </div>
+                            <div class="heal-msg-content">
+                                <h6>Lorem ipsum dolor sit amet,lorem50 consectetur adipiscing
+                                    elit. lorem20</h6>
+                            </div>
+                        </div>
+                        <p class="heal-msg-time">
+                            15 March 2024 - 6:55 PM
+                        </p>
+                    </div>
+                    <!-- Client message -->
+                    <div class="d-flex justify-content-end ">
+                        <div class="client-msg">
+                            <div class="d-flex flex-row-reverse">
+                                <div class="client-msg-img">
+                                    <img src="images/client-chat-img.png">
+                                </div>
+                                <div class="client-msg-content">
+                                    <h6>Lorem ipsum dolor sit amet,lorem50 consectetur adipiscing
+                                        elit. lorem20</h6>
+                                </div>
+                            </div>
+                            <p class="client-msg-time">
+                                15 March 2024 - 6:55 PM
+                            </p>
+                        </div>
+                    </div>
+                    <div class="chat-box-input">
+                        <div class="position-relative">
+                            <textarea class="message-field" name="" placeholder="Type Your Message"></textarea>
+                            <span><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                            <span class="send-btn"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="23"
+                                    viewBox="0 0 25 23" fill="none">
+                                    <path
+                                        d="M23.9911 9.99176L23.9827 9.98811L1.7369 0.761779C1.54979 0.683468 1.34618 0.652756 1.14429 0.672389C0.942406 0.692022 0.748533 0.761388 0.580019 0.874282C0.401978 0.990936 0.255734 1.15002 0.154445 1.33722C0.0531552 1.52442 -1.88126e-06 1.73387 -0.000243856 1.94671V7.84742C-0.000144924 8.13839 0.101463 8.42021 0.287067 8.64431C0.472671 8.86841 0.730642 9.02075 1.01652 9.07506L13.1494 11.3184C13.1971 11.3274 13.2401 11.3528 13.2711 11.3902C13.302 11.4275 13.319 11.4745 13.319 11.5231C13.319 11.5716 13.302 11.6186 13.2711 11.6559C13.2401 11.6933 13.1971 11.7187 13.1494 11.7277L1.01704 13.9711C0.731243 14.0252 0.473286 14.1774 0.287599 14.4013C0.101912 14.6251 0.000120488 14.9068 -0.000243856 15.1977V21.0994C-0.00038219 21.3026 0.0499451 21.5027 0.146222 21.6817C0.242498 21.8607 0.381712 22.013 0.55137 22.125C0.755451 22.2605 0.994956 22.333 1.23998 22.3333C1.41032 22.3331 1.57891 22.299 1.73586 22.2328L23.9812 13.059L23.9911 13.0544C24.2905 12.9257 24.5456 12.712 24.7249 12.4399C24.9042 12.1677 24.9998 11.849 24.9998 11.5231C24.9998 11.1972 24.9042 10.8784 24.7249 10.6062C24.5456 10.3341 24.2905 10.1204 23.9911 9.99176Z"
+                                        fill="#4E3524" />
+                                </svg></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

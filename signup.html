@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b8a1658f0a.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <section class="signupsec">
+        <div class="mainlogo">
+            <a href="index.html" class="d-block">
+                <img src="images/login-pg-logo.png" class="inner-pg-logo">
+            </a>
+            <h1>Create your account</h1>
+        </div>
+        <form action="">
+            <div class="signupmain">
+                <div class="locmapmain">
+                    <div class="signupinnerpad d-flex flex-column flex-lg-row align-items-center align-items-lg-start ">
+                        <div class="dp-search">
+                            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                            <input type="text" placeholder="Search Here or Drop Pin" class="float-start">
+                            <div class="mapdiv">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.919852794792!2d-113.49540832400041!3d53.54134526011617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a02246763f6faf%3A0x1023d295c9280cf5!2sScotia%201%2C%2010060%20Jasper%20Ave%20tower%201%20suite%202020%2C%20Edmonton%2C%20AB%20T5J%203R8%2C%20Canada!5e0!3m2!1sen!2s!4v1710734796921!5m2!1sen!2s"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <div class="addressheading">
+                            <div class="address-details">
+                                <div class="d-flex align-items-center ps-sm-4 flex-column flex-md-row justify-content-center my-5 my-md-3 my-lg-0">
+                                    <h3>Label this address as:</h3>
+                                    <div class="choicebtn mt-4 mt-lg-2 mt-xl-0">
+                                        <ul>
+                                            <li>
+                                                <input type="radio" id="html" name="fav_language" value="HTML">
+                                                <label for="html">Home</label>
+                                            </li>
+                                            <li>
+                                                <input type="radio" id="css" name="fav_language" value="CSS">
+                                                <label for="css">Office</label>
+                                            </li>
+                                            <li>
+                                                <input type="radio" id="javascript" name="fav_language"
+                                                    value="JavaScript">
+                                                <label for="javascript">Other</label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="innerbtn">
+                                    <ul>
+                                        <li class="canceltbn">
+                                            <a href="#">Cancel</a>
+                                        </li>
+                                        <li class="savebtn">
+                                            <a href="#">Save Address</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="contain">
+                                <div class="signupform">
+                                    <div class="signup-form-fields ps-lg-3">
+                                        <input type="text" name="" placeholder="Full Name">
+                                        <select>
+                                            <option disabled>Gender</option>
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                        </select>
+                                        <input id="phone" type="tel" name="phone" />
+                                        <input type="email" class="singemail" name="" placeholder="Email">
+                                        <div class="d-flex justify-content-around flex-wrap ">
+                                            <div class="pwd-group">
+                                                <input type="password" name="" placeholder="Password">
+                                                <span class="pwd-show-btn">Show</span>
+                                            </div>
+                                            <div class="pwd-group">
+                                                <input type="password" name="" placeholder="Confirm Password">
+                                                <span class="pwd-show-btn">Show</span>
+                                            </div>
+                                        </div>
+                                        <button type="submit">Sign Up</button>
+                                        <p><a href="login.html"> Already Have An Account <img src="images/arrowacc.png">
+                                            </a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="site-footer">
+            <div class="contain">
+                <div class="continue-div">
+                    <span>Or Continue With</span>
+                </div>
+                <div class="social-list">
+                    <ul>
+                        <li> <a href="#"><i class="fa-brands fa-google"></i></a> </li>
+                        <li> <a href="#"><i class="fa-brands fa-facebook-f"></i></a> </li>
+                        <li> <a href="#"><i class="fa-brands fa-apple"></i></a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/script.js"></script>
+    <script>
+        const phoneInputField = document.querySelector("#phone");
+        const phoneInput = window.intlTelInput(phoneInputField, {
+            utilsScript:
+                "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+        });
+    </script>
+</body>
+</html>

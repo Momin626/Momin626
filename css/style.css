@@ -1,0 +1,3533 @@
+* {
+    box-sizing: border-box;
+}
+.dm-serif display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.dm-serif display-regular-italic {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.montserrat-<uniquifier> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+a {
+    text-decoration: none !important;
+}
+a,
+a:hover {
+    transition: all .5s;
+}
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: "Montserrat", sans-serif !important;
+    margin: 0 auto;
+    background-color: #FFF4EC !important;
+}
+.containe {
+    max-width: 100%;
+    padding: 0 60px;
+}
+.container-1660 {
+    width: 100%;
+    max-width: 1620px;
+    margin: 0 auto;
+}
+.container-1250 {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.container-1200 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-1175 {
+    width: 100%;
+    max-width: 1175px;
+    margin: 0 auto;
+}
+.brdr {
+    border-right: 0.7px solid #4E3524;
+}
+/* Login System */
+.splash-sec {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-bottom: 230px;
+    padding-top: 170px;
+}
+.splash-sec::before {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 244, 236, 1);
+    opacity: .8;
+    z-index: -1;
+}
+.sitelogo {
+    text-align: center;
+}
+.loginsystem h1 {
+    max-width: 40%;
+    margin: 95px auto;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 62px;
+    font-family: "DM Serif Display", serif;
+    color: #4E3524;
+    text-align: center;
+}
+.loginsystem ul,
+.social-list ul,
+.checkout ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.loginsystem ul li {
+    margin: 0 0 14px 0;
+}
+.loginsystem ul li:last-child a {
+    margin: 0px auto 0 auto;
+}
+.loginsystem ul li:nth-child(2) a,
+.loginsystem ul li:nth-child(1) a:hover,
+.loginform button:hover,
+.reset-succ a:hover,
+.signupform button:hover,
+.signupform.reset-succ a:hover,
+.forgetform .sub-btn button[type="submit"]:hover,
+.forgetform.reset-succ a:hover,
+.newpwdform button[type="submit"]:hover,
+.newpwdform.reset-succ a:hover,
+.contibtn:hover,
+.loginsystem ul li a.therapist_signup:hover {
+    background-color: transparent;
+    color: #4E3524;
+}
+.loginsystem ul li:nth-child(2) a {
+    margin-top: 135px;
+}
+.loginsystem ul li:nth-child(2) a:hover {
+    background-color: #4E3524;
+    color: #fff;
+}
+.loginsystem ul li a img,
+.loginform button img,
+.signupform button img,
+.forgetform .sub-btn button img,
+.newpwdform button img,
+.reset-succ a img,
+.contibtn img {
+    text-align: right;
+    position: absolute;
+    right: 30px;
+    top: 28px;
+    bottom: 0;
+}
+.loginsystem h1 img {
+    margin-left: 10px;
+}
+/* Login */
+.login-sec .contain,
+.forgetsec .contain,
+.newpwd-sec .contain {
+    max-width: 676px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.login-sec,
+.signupsec,
+.newpwd-sec,
+.pwdsucc {
+    background-color: #FFF4EC;
+}
+.login-sec,
+.newpwd-sec,
+.pwdsucc {
+    padding: 37px 0 47px 0;
+}
+.mainlogo {
+    text-align: center;
+}
+img.inner-pg-logo {
+    width: 150px;
+    height: 118px;
+}
+.loginform input,
+.loginform select,
+.innerpad input,
+.formfield input,
+.formdate input,
+.checkoutform input,
+.signupform input,
+.signupform select,
+.forgetform input,
+.forgetform select,
+.newpwdform input,
+.customizeapptform input,
+.signupinnerpad input,
+.c-detailform input,
+.profile-form input,
+.profile-form select,
+.message-field,
+textarea {
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: #FFEADB;
+    border: 1px solid #FFEADB;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4E3524;
+    padding: 20px 30px;
+    border-radius: 18px;
+    height: 66px
+}
+.loginform input:focus,
+.innerpad input:focus,
+#verificode input:focus-visible,
+.innerpad input:focus-visible,
+.innerpad input:focus-visible,
+.formfield input:focus,
+.formfield input:focus-visible,
+.formdate input:focus,
+.checkoutform input:focus .signupform input:focus,
+.signupform select:focus,
+.forgetform input:focus,
+.newpwdform input:focus,
+.forgetform select:focus,
+.c-detailform input:focus,
+.profile-form input:focus,
+.profile-form select:focus,
+textarea:focus {
+    background-color: transparent;
+    color: #4E3524;
+    outline: 2px solid #4E3524;
+}
+.loginform input::placeholder,
+.innerpad input::placeholder,
+#verificode input::placeholder,
+.innerpad input::placeholder,
+.innerpad input::placeholder,
+.formfield input::placeholder,
+.formfield input::placeholder,
+.formdate input::placeholder,
+.checkoutform input::placeholder,
+.signupform input::placeholder,
+.signupform select::placeholder,
+.forgetform input::placeholder,
+.forgetform select::placeholder,
+.newpwdform input::placeholder,
+.profile-form input,
+.c-detailform input::placeholder,
+select option,
+.message-field::placeholder,
+textarea::placeholder {
+    font-size: 16px;
+    color: #4E3524;
+    opacity: 0.7;
+    font-family: "Montserrat", sans-serif !important;
+}
+textarea::placeholder {
+    opacity: 0.5;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    opacity: 0.7;
+    background-image: url('../images/downarrow.png');
+    background-repeat: no-repeat;
+    background-position: 98%;
+}
+/* index */
+.loginsystem ul li a.therapist_signup {
+    color: #fff;
+    margin-top: 0px !important;
+}
+.loginsystem ul li a.therapist_signup:hover {
+    background-color: transparent !important;
+    color: #3f1f05 !important;
+    border-color: #3f1f05 !important;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+.loginform input.in_pwd {
+    margin-bottom: 14px;
+}
+.loginform .pwd-group,
+.newpwdform .pwd-group {
+    width: 100%;
+    position: relative;
+    margin: 0px;
+}
+.signupform .pwd-group {
+    position: relative;
+    width: 100%;
+    max-width: 377px;
+    margin: 0 2.5px;
+}
+.signupform .pwd-group input {
+    margin-left: 3px;
+    margin-right: 2px;
+}
+span.pwd-show-btn {
+    position: absolute;
+    top: 25px;
+    right: 36px;
+    color: #4E3524;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    opacity: 0.5;
+    text-align: right !important;
+    cursor: pointer;
+}
+.checkoutform input {
+    width: 100%;
+}
+.login-head h1,
+.signupsec h1,
+.otp-verify-head h1,
+.pwdsucc-head h1,
+.homehead h1,
+.personselect-head h1,
+.customizeappt-head h1,
+.checkout-head h1,
+.payment-head h1,
+.navbar-nav h1,
+.b-d-head h1 {
+    color: #4E3524;
+    font-size: 52px;
+    font-family: "DM Serif Display", serif;
+    position: relative;
+    display: inline-block;
+    line-height: 62px;
+}
+.leftstar.formob {
+    display: none;
+}
+.loginform span a {
+    width: 95%;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    display: inline-block;
+    text-align: left;
+}
+.loginsystem ul li a {
+    display: block;
+}
+.loginsystem ul li a,
+.loginform button,
+.signupform button,
+.forgetform .sub-btn button,
+.newpwdform button,
+.reset-succ a,
+.newpwdform.reset-succ a,
+.contibtn,
+.loginsystem ul li a.therapist_signup {
+    max-width: 453px;
+    width: 100%;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    background-color: #4E3524;
+    position: relative;
+    transition: all .5s;
+    padding: 20px 10px;
+    border: 2px solid #4E3524;
+    border-radius: 40px;
+    margin: 94px auto 0 auto;
+}
+.loginform.reset-succ a,
+.contibtn {
+    display: block;
+    margin: 182px auto 0;
+}
+.loginform p {
+    text-align: center;
+}
+.loginform p a,
+.signupform p a {
+    font-size: 15px;
+    color: #4E3524;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 29px;
+    line-height: normal;
+}
+.loginform p a img,
+.signupform p a img {
+    width: 27px;
+    height: 9px;
+    margin-left: 14px;
+}
+.continue-div {
+    text-align: center;
+    position: relative;
+}
+.continue-div span {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.5;
+}
+.continue-div:after,
+.continue-div:before {
+    content: "";
+    height: 1px;
+    width: 60%;
+    background: #000;
+    top: 50%;
+    position: absolute;
+    opacity: .3;
+}
+.continue-div:before {
+    left: 0;
+    transform: translateX(-50%);
+}
+.continue-div:after {
+    right: 0;
+    transform: translateX(50%);
+}
+.site-footer {
+    max-width: 596px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.social-list ul li {
+    display: inline-block;
+    margin-right: 44px;
+}
+.social-list ul li:last-child {
+    margin-right: 0;
+}
+.social-list {
+    text-align: center;
+    padding-top: 58.7px;
+}
+.social-list ul li a {
+    background-color: #4E3524;
+    display: flex;
+    width: 43px;
+    height: 43px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 17px 0;
+    color: #DDBC6B;
+    font-size: 19px;
+}
+.social-list ul li a:hover {
+    background-color: #DDBC6B;
+    color: #4E3524;
+}
+.loginform {
+    padding-top: 70px;
+}
+.loginform form {
+    display: flex;
+    flex-direction: column;
+}
+.login-head,
+.otp-verify-head,
+.pwdsucc-head,
+.homehead,
+.personselect-head,
+.customizeappt-head,
+.checkout-head,
+.payment-head,
+.b-d-head h1 {
+    text-align: center;
+    padding: 70px 0 133px 0;
+}
+.loginform input.singemail {
+    margin-top: 13px;
+}
+/* Signup */
+.signupsec {
+    padding: 37px 0 70.8px 0px;
+}
+.signupmain {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.signupmain .innerpad {
+    padding: 0;
+}
+.signupform {
+    display: flex;
+    text-align: center;
+    padding: 62px 0 76px;
+}
+.signupform form {
+    padding-left: 19px;
+}
+.signupmain .locmapmain {
+    width: 100%;
+}
+.signupmain .locmapmain .innerpad {
+    max-width: none;
+    height: auto;
+    position: relative;
+    -ms-overflow-style: none;
+}
+.innerpad {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.innerpad span .fa-map-marker,
+.signupinnerpad span .fa-map-marker {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    font-size: 20px;
+    color: #DDBC6B;
+    z-index: 999;
+}
+.addressheading h3 {
+    font-size: 21px;
+    color: #000000;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "DM Serif Display", serif;
+    margin: 0 18px 0 0;
+}
+.choicebtn ul,
+.innerbtn ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.choicebtn ul li {
+    display: inline-block;
+    border: 1px solid #4E3524;
+    border-radius: 50px;
+    background-color: #FFEADB;
+    padding: 8px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.choicebtn ul li:first-child {
+    margin-left: 0;
+}
+.choicebtn ul li:last-child {
+    margin-right: 0;
+}
+.choicebtn ul li input[type="radio"] {
+    margin-bottom: 0;
+    background: transparent;
+    border: 1px solid #4E3524;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    appearance: none;
+    margin-right: 2px;
+    position: relative;
+    top: 3px;
+    border-radius: 50px;
+    padding: 0;
+    cursor: pointer;
+}
+.choicebtn ul li label {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    top: 0px;
+    cursor: pointer;
+}
+.choicebtn ul li input[type="radio"]:checked {
+    background-color: #DDBC6B;
+    background-image: url('../images/points.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.choicebtn ul li.checked11 {
+    background-color: #4E3524;
+}
+.choicebtn ul li.checked11 label {
+    color: #FFF4EC;
+}
+.innerbtn ul li {
+    display: inline-block;
+}
+.innerbtn ul .canceltbn a {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 400;
+    position: relative;
+}
+.innerbtn ul .canceltbn a::before,
+.confirbtn a::before {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all .5s;
+}
+.innerbtn ul .canceltbn a:hover::before,
+.confirbtn a:hover::before {
+    width: 0;
+}
+.innerbtn ul li.savebtn a {
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #000000;
+    color: #fff;
+    display: inline-block;
+    width: 153px;
+    text-align: center;
+    padding: 11px 0 9px;
+    border-radius: 50px;
+    border: 2px solid #000000;
+}
+.innerbtn ul li.savebtn a:hover {
+    background-color: transparent;
+    color: #000;
+}
+.innerbtn ul li.savebtn {
+    margin-left: 39px;
+}
+.mapdiv {
+    text-align: center;
+}
+.mapdiv iframe {
+    width: 377px;
+    height: 422px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+.innerpad input,
+.signupinnerpad input {
+    width: 377px;
+    line-height: normal;
+    padding: 21.530px 30px 21.530px 50px;
+    margin-bottom: 25px;
+}
+.iti--allow-dropdown .iti__flag-container {
+    left: -16px !important;
+}
+.addressheading {
+    padding-top: 6px;
+}
+.innerbtn {
+    display: none;
+    margin-top: 32px;
+}
+.login-sec.signupsec {
+    position: relative;
+    overflow: hidden;
+}
+.signupsec h1 {
+    text-align: center;
+    padding: 70px 0;
+}
+.locmapmain.showme::before {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.30);
+    backdrop-filter: blur(5.5px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.locmapmain.showme {
+    width: 100%;
+    background-color: #00000096;
+}
+.innerpad {
+    background-color: #FFF4EC;
+    padding: 45px 60px;
+    border-radius: 40px 0 0 40px;
+}
+.locmapmain .innerpad {
+    max-width: 950px;
+    height: 100vh;
+    right: -100%;
+    z-index: 3;
+    overflow: auto;
+    -ms-overflow-style: none;
+    transition: all 0.3s ease;
+}
+.locmapmain.showme .innerpad {
+    top: 0;
+    right: 0;
+    transition: all 0.3s ease;
+}
+.locmapmain.showme .innerpad::-webkit-scrollbar,
+.chatbox::-webkit-scrollbar {
+    display: none;
+}
+.locmapmain.showme .innerpad::-moz-scrollbar,
+.chatbox::-webkit-scrollbar {
+    display: none;
+}
+.signupform input,
+.signupform select,
+.iti--allow-dropdown {
+    width: 100%;
+    max-width: 377px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.signupform input#choosloc {
+    display: none;
+}
+input[type=tel]#phone {
+    margin: 0 0px 25px 0px !important;
+    padding-left: 65px;
+}
+.iti__selected-flag {
+    top: -10px;
+    padding-left: 40px !important;
+}
+.dp-search {
+    position: relative;
+}
+.signupform button {
+    margin: 70px auto 0 auto;
+    padding: 20px 30px;
+}
+/* Forget Password */
+.forgetsec {
+    padding: 0px 0 93px 0;
+    background-color: #FFF4EC;
+}
+.inner-bar {
+    display: none !important;
+}
+.forgetsec .contain {
+    padding: 0px;
+}
+.forgetform {
+    padding: 0 20px;
+}
+.descrip {
+    margin: 27px 0 154px 0;
+}
+.descrip p {
+    font-size: 16px;
+    color: #4E3524;
+    font-weight: 500;
+    line-height: 31px;
+}
+.forgetform .sub-btn button[type="submit"] {
+    margin-top: 218px;
+}
+/* Verification Code */
+.otp-verify-sec {
+    padding: 37px 0 0px 0;
+}
+.otp-verify-head .descrip {
+    margin: 27px 0 89px 0;
+}
+.otp-verify-head .descrip p {
+    opacity: 0.5;
+}
+.forgetform #verificode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resend-descrip {
+    text-align: center;
+}
+#verificode input {
+    width: 110.153px;
+    height: 97px;
+    color: #4E3524;
+    font-size: 31px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin: 0 12.33px 0 12.33px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+.resend-descrip {
+    margin: 47px 0 172px 0;
+}
+.resend-descrip p {
+    color: #4E3524;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.resend-descrip p a {
+    color: #4E3524;
+    text-decoration: underline !important;
+}
+.otp-verify-head .forgetform .sub-btn button[type="submit"] {
+    margin-top: 0;
+}
+/* New password */
+.newpwd-sec .descrip {
+    opacity: 0.8;
+}
+.newpwdform {
+    text-align: center;
+}
+.newpwdform button[type="submit"] {
+    margin: 136px 0 0 0;
+    padding: 20px 30px;
+}
+/* New password  Successfull*/
+.pwdsucc-head .descrip {
+    opacity: 0.7;
+    margin: 27px 0 76px 0;
+}
+.reset-succ .reset-img {
+    max-width: 100%;
+    height: auto;
+}
+.reset-succ a {
+    display: block;
+    padding: 20px 30px;
+    margin-top: 135.67px;
+}
+.pwdsucc-head {
+    padding-bottom: 179px;
+}
+.newpwdform .pwd-group input {
+    margin: 0 0 25px 0;
+}
+/* Home */
+/* --topbar */
+.yourloca i {
+    font-size: 20px;
+    color: #DDBC6B;
+    z-index: 999;
+    margin-right: 10px;
+}
+nav.main-navigation {
+    position: relative;
+    background: #FFF4EC;
+    padding: 10px 20px 21px 20px;
+    border-bottom: 0.5px solid #000;
+}
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+/* Main Navigation */
+.navbar-nav h1 {
+    padding-top: 150px;
+}
+ul.navbar-nav .nav-item {
+    margin-right: 66px;
+}
+ul.navbar-nav .nav-item:last-child {
+    margin-right: 0px;
+}
+ul.navbar-nav .nav-item a.nav-link {
+    color: #62411F;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 0 !important;
+}
+ul.navbar-nav .nav-item a.nav-link.active {
+    color: #4d3115;
+}
+.navbar-toggler {
+    font-size: 25px !important;
+    padding: 0px !important;
+}
+.fa-user-circle-o {
+    font-size: 31px;
+    color: #4E3524;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+.main-sec {
+    background-color: #FFF4EC;
+    position: relative;
+    z-index: 1;
+    padding: 0 40px 29px 40px
+}
+.home {
+    background-color: #FFF4EC;
+}
+.home-sec {
+    position: relative;
+    z-index: 0;
+    padding-bottom: 100px;
+}
+.home-sec::before {
+    content: '';
+    display: inline-block;
+    background-image: url(../images/homeback.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 474px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.home-sec::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(255, 244, 236, 0.85) 0%, #FFF4EC 46%);
+    position: absolute;
+    top: -1px;
+    left: 0;
+    z-index: -1;
+}
+.yourloca p::after {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 4px;
+    color: #000;
+    background-image: url('../images/Vector.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 0 2px 4px;
+}
+.homehead {
+    padding: 100px 0 0 0;
+}
+.homehead .leftstar {
+    position: relative;
+    top: -20px;
+}
+.homehead .rightstar {
+    position: relative;
+    bottom: -10px;
+}
+.homhead .descrip {
+    margin: 27px 0 104px 0;
+}
+.homhead .descrip p {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 31px;
+}
+.main-slider-box {
+    padding: 0 40px;
+}
+.mainsteps .thimbnialimg img {
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 136px 136px 0px 0px;
+}
+.mainsteps .heading h3 {
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 20px;
+}
+.c-box {
+    width: 278px !important;
+    padding: 0 !important;
+    margin: 0 9.5px;
+    margin-bottom: 37px;
+}
+.c-box img {
+    width: 100%;
+    height: 100%;
+}
+/* Person Select */
+.breadcrumb-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 35px 0 35px;
+}
+.breadcrumb-bar a {
+    color: #000000;
+    opacity: 0.7;
+    margin-top: 5px;
+}
+.breadcrumb-bar a:focus,
+.breadcrumb-bar a:active,
+.breadcrumb-bar a:hover {
+    color: #d1ae5e !important;
+    opacity: 1;
+}
+.breadcrumb-bar a i {
+    font-size: 20px;
+}
+.breadcrumb-bar span {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+.personselect {
+    padding: 0 40px 0px 40px;
+}
+.personselect-head {
+    padding: 75px 0 155px 0;
+}
+.firstperson,
+.firedselect {
+    text-align: center;
+    border-radius: 111.083px;
+    padding: 37px 10px;
+    width: 222.165px;
+    height: 266.246px;
+    margin: 0 25.65px;
+    cursor: pointer;
+}
+.firstperson {
+    background-color: #4E3524;
+}
+.firedselect {
+    background-color: #DDBC6B;
+}
+.firstperson a {
+    color: #FFF4EC;
+}
+.firedselect a {
+    color: #4E3524;
+}
+.firstperson a:hover {
+    color: #DDBC6B;
+}
+.firedselect a:hover {
+    color: #2b2019;
+}
+.firstperson h3,
+.firedselect h3 {
+    font-size: 27px;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.firstperson h3 span,
+.firedselect h3 span {
+    color: #DDBC6B;
+}
+.person-s-img {
+    width: auto;
+    height: 59.949px;
+}
+/* Customize Appointment */
+.appt-cat input {
+    display: none;
+}
+label.mainsteps {
+    position: relative;
+}
+.appt-cat input[type="radio"]:checked+label.mainsteps::before {
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: url('../images/tick.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.customizeappt .breadcrumb-bar {
+    padding: 30px 0 0 0;
+}
+.customizeappt .heading,
+.customizeappt .description {
+    padding: 0 18px 0 0;
+}
+.customizeappt .heading h3 {
+    padding: 20px 0 2px 0;
+    line-height: normal;
+}
+.customizeappt .heading p {
+    color: #DDBC6B;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0 0 10px 0;
+    margin-bottom: 0;
+}
+.appt-cat {
+    width: 278px !important;
+    padding: 0 !important;
+    margin: 0 10px 50px 10px;
+}
+.appt-cat img {
+    width: 100%;
+}
+.customizeappt .description p {
+    display: inline-block;
+    height: 22px;
+    overflow: hidden;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 29px;
+    margin: 0;
+    transition: height 0.3s ease-out;
+}
+.customizeappt .description .read-more {
+    color: #4E3524;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 29px;
+    margin: 0;
+}
+.customizeappt .description .read-more:hover,
+.customizeappt .description .read-more:focus {
+    text-decoration: underline;
+}
+.customizeapptform {
+    padding: 70px 50px 0 50px;
+}
+.choicebtn ul li {
+    margin: 0 5px;
+}
+.therapist-div {
+    padding: 0 25px;
+}
+.therapistdiv h3,
+.sessiondiv h3,
+.formfield h3 {
+    color: #000;
+    font-family: "DM Serif Display";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 17px;
+}
+.formfields {
+    align-items: center;
+    padding: 70px 0;
+}
+/* Date and time */
+.datetime .homehead {
+    padding: 44px 0 213px 0;
+}
+.datetime .main-sec {
+    padding-bottom: 99px;
+}
+.formdate .dateAndTimePicker {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 106px;
+}
+.table-condensed {
+    background-color: #fff;
+    width: 437px;
+    height: 332px;
+    border-radius: 11px
+}
+.table-condensed td,
+th {
+    padding: 5px;
+}
+#datepicker {
+    width: 437px;
+    height: 332px;
+    margin: 0 15px;
+}
+.datepicker-inline {
+    width: 100% !important;
+}
+.datetime #appt-time {
+    max-width: 437px;
+    margin: 0 15px
+}
+.datetimesec .breadcrumb-bar {
+    padding: 30px 0 0 0;
+}
+.datepicker table tr td.active {
+    background-color: #4E3524 !important;
+    border-radius: 8px !important;
+    background-image: none !important;
+}
+.datepicker {
+    padding: 0 !important;
+}
+/* Therapist */
+.therap-sec {
+    background-color: #FFF4EC;
+    padding-bottom: 100px;
+}
+.locmapmain {
+    /* width: 0%; */
+}
+.therap-sec .homehead h1 {
+    padding-bottom: 77px;
+}
+.therap-sec .innerpad {
+    position: fixed;
+    display: block;
+}
+.therapy-content h3,
+.therapright h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    line-height: normal;
+}
+.therapy-content h3 {
+    margin-bottom: 15px;
+}
+.rateaxp ul,
+.btnlink ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.rateaxp ul li,
+.btnlink ul li {
+    display: inline-block;
+}
+.rateaxp ul li span,
+.rateaxp ul li h4 {
+    color: #4E3524;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.5;
+}
+.rateaxp ul li h4 {
+    opacity: 1;
+}
+.btnlink .proficebtn a {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    position: relative;
+}
+.btnlink .proficebtn a::before {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all .5s;
+}
+.btnlink .proficebtn a:hover::before {
+    width: 0;
+}
+.btnlink .bookbtn a {
+    width: 100%;
+    max-width: 138px;
+    display: inline-block;
+    background-color: #4E3524;
+    border: 1px solid #4E3524;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 8px 25px;
+    border-radius: 40px;
+    text-align: center;
+}
+.btnlink .bookbtn a:hover {
+    background-color: transparent;
+    color: #000;
+}
+.btnlink ul li {
+    padding-right: 12px;
+}
+.btnlink ul li:last-child,
+.rateaxp ul li:last-child {
+    padding-right: 0;
+}
+.rateaxp ul li {
+    padding: 0 10px;
+    position: relative;
+}
+.rateaxp ul li::before {
+    content: '';
+    border-right: 1px solid #4E3524;
+    position: absolute;
+    top: 4px;
+    right: -2px;
+    width: 1px;
+    height: 20px;
+}
+.rateaxp ul li:first-child {
+    padding-left: 0;
+}
+.rateaxp ul li:last-child::before {
+    content: none;
+}
+.therapy-content {
+    margin-top: 20px;
+}
+.rateaxp ul li img {
+    width: 22px;
+    height: 14px;
+    padding-right: 5px;
+}
+.personthumb,
+.profileimg {
+    position: relative;
+    z-index: 1;
+}
+.personthumb::before,
+.profileimg::before {
+    content: '';
+    display: inline-block;
+    background-color: #4E3524;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -17px;
+    left: 0;
+    border-radius: 122.5px 122.5px 122.5px 0px;
+    z-index: -1;
+}
+.profileimg::before {
+    top: -5px;
+}
+.profileimg::before .personthumb:nth-child(2n + 1)::before {
+    background-color: #4E3524 !important;
+}
+/* .personthumb:nth-child(2n)::before {
+    background-color: #DDBC6B !important;
+} */
+.maintherap {
+    width: 245px;
+    margin: 77px auto 28px auto;
+}
+.personthumb img {
+    width: 245px;
+    height: 333px;
+    border-radius: 122.5px 122.5px 122.5px 0px;
+}
+.profileimg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 93px 93px 93px 0px;
+}
+.profileimg {
+    width: 110px;
+    height: 147px;
+}
+.bookingpeople h3 {
+    font-weight: 500;
+    color: #4E3524;
+    margin-bottom: 0;
+}
+.bookingpeople h3 span {
+    color: #DDBC6B;
+}
+.therapser {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.therapsec {
+    position: relative;
+}
+.mainsec.persondiv.datetimesec.therapsec {
+    height: auto;
+}
+.bookingpeople {
+    margin-top: 7px;
+}
+.tabsdetail .nav-pills .nav-link.active,
+.tabsdetail .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #4E3524;
+}
+.tabsdetail .nav-pills .nav-link {
+    border: 1px solid #4E3524;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0000009c;
+    background-color: #FFEADB;
+    padding: 12px 25px;
+    text-align: center;
+    line-height: normal;
+}
+.tabsdetail ul li {
+    padding-right: 12px;
+}
+.tabsdetail ul li:last-child {
+    padding-right: 0;
+}
+.tabsdetail {
+    margin-top: 20px;
+}
+.abouttherap h2 {
+    font-size: 21px;
+    color: #000000;
+    font-family: "DM Serif Display", serif;
+    margin-bottom: 28px;
+    line-height: normal;
+}
+.complitext h3 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    color: #000000;
+    margin-top: 11.5px;
+}
+.compliimg {
+    position: relative;
+}
+.compliimg img {
+    width: 77.382px;
+    height: 77.382px;
+}
+.compliimg span {
+    background-color: #DDBC6B;
+    color: #fff;
+    display: flex;
+    width: 22.973px;
+    height: 22.973px;
+    border-radius: 50px;
+    font-size: 9px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -2px;
+    right: 18px;
+}
+.maincompli {
+    text-align: center;
+    margin-bottom: 22px;
+}
+.melissatext {
+    display: flex;
+    flex-grow: 1;
+    background-color: #FFEADB;
+    border-radius: 12px;
+    padding: 16px;
+}
+.melissatext p,
+.melissatext ul li {
+    color: #000000;
+    font-size: 16px;
+    line-height: 29px;
+    margin-bottom: 0;
+}
+.melissatext ul {
+    margin: 0;
+}
+.innerser ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.innerser ul li {
+    font-size: 14px;
+    color: #4E3524;
+    font-weight: 500;
+    position: relative;
+    line-height: normal;
+}
+.innerser ul li::before {
+    content: '';
+    display: inline-block;
+    background-image: url(../images/points.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    position: relative;
+    top: 2px;
+}
+.innerser {
+    padding-top: 15px;
+    padding-bottom: 29px;
+}
+.tabsdetail ul {
+    justify-content: center;
+}
+.abouttherap {
+    padding-top: 25px;
+}
+.cancel {
+    text-align: right;
+}
+.cancel i {
+    position: relative;
+    right: -20px;
+    font-size: 20px;
+    color: #0000009e;
+    opacity: 0.8;
+}
+.innermodal {
+    background-color: #FFEADB;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 18px;
+}
+.innermodal img {
+    width: 101px;
+    height: 127px;
+    border-radius: 63px;
+}
+.innermodal .row {
+    align-items: center;
+}
+.therapright {
+    padding-left: 33px;
+}
+.innermodal .modal-text h4 {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+    padding-left: 0;
+}
+.selectionpkg .modal-text p,
+h4 {
+    padding-left: 20px;
+}
+.modal-text p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 19px;
+    margin-bottom: 0;
+    line-height: 29px;
+}
+.bookbtn {
+    margin-top: 15px;
+}
+.yourpkglist ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.yourpkglist ul li.mainlist {
+    border-bottom: 1px solid #4E3524;
+    padding: 35px 0;
+    position: relative;
+}
+.durright .choicebtn ul li {
+    padding: 2px 13px 3px;
+    border-bottom: 1px solid #4E3524;
+}
+.durleft h3 {
+    font-size: 21px;
+    color: #000000;
+    font-family: "DM Serif Display", serif;
+    margin-bottom: 22px;
+    line-height: normal;
+}
+.address .durleft h3 {
+    margin-bottom: 0px;
+}
+.therapright .bookingpeople h3 {
+    font-size: 18px;
+}
+.durinner h2 {
+    color: #4E3524;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+    line-height: normal;
+}
+.durinner h2 span {
+    color: #DDBC6B;
+}
+.durinner h3 {
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 0;
+}
+.billingtext {
+    text-align: center;
+    margin-top: 20px;
+}
+.billingtext h2 {
+    font-size: 21px;
+    color: #000000;
+    font-family: "DM Serif Display", serif;
+    margin-bottom: 0;
+    line-height: normal;
+}
+.billingtext h2 span {
+    color: #DDBC6B;
+}
+.mainrow.botlist {
+    margin-top: 11px;
+}
+.durright .choicebtn {
+    margin-top: 0;
+}
+.editbtn {
+    text-align: right;
+}
+.editbtn a img {
+    width: 21px;
+    height: 21px;
+}
+/* Checkout */
+.checkout-sec {
+    padding: 0 35px 100px 35px;
+}
+.checkout .promocode {
+    position: relative;
+}
+.checkout .promocode span.gift-icon img {
+    position: absolute;
+    top: 23px;
+    left: 30px;
+}
+.checkout .promocode span.promocode-icon img {
+    position: absolute;
+    top: 23px;
+    left: 70px;
+}
+.checkout input[type="number"] {
+    padding-left: 120px;
+}
+.yourpkglist ul li.mainlist .flexrow,
+.yourpkglist ul li.mainlist .flexwraper {
+    position: relative;
+}
+.flexrow .editbtn,
+.therapright .editbtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.checkoutform h4,
+.checkoutsummary h3 {
+    font-size: 21px;
+    color: #000000;
+    font-family: "DM Serif Display", serif;
+    margin-bottom: 14px;
+}
+.checkoutsummary ul li {
+    padding: 15px 0;
+}
+.checkoutsummary ul li p {
+    color: #4E3524;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 0;
+}
+.chk-subtotal {
+    border-top: 0.7px solid #4E3524;
+    border-bottom: 1px solid #4E3524;
+    padding: 30px 0 !important;
+}
+.chk-subtotal p {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+.chk-subtotal span {
+    color: #DDBC6B;
+    font-size: 20px;
+    font-weight: 700 !important;
+}
+.checkouttips .choicebtn ul li {
+    margin-bottom: 12px;
+}
+.checkouttips .choicebtn {
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+.checkoutsummary ul {
+    margin-top: 13px;
+}
+.subtotalprice {
+    position: relative;
+    padding-top: 16px;
+}
+.subtotalprice::before {
+    content: '';
+    display: inline-block;
+    width: 80%;
+    height: 1px;
+    background-color: #4E3524;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.checkouttips {
+    padding-top: 35px;
+}
+/* Payment */
+.payment-sec {
+    padding: 0 30px 50px 30px;
+}
+.paymentform {
+    width: 100%;
+    max-width: 575px;
+}
+.payment-types .choicebtn ul li {
+    display: block;
+    position: relative;
+    padding: 20px 50px;
+    margin-bottom: 25px;
+}
+.payment-types .choicebtn ul li:first-child {
+    margin-left: 5px;
+}
+.payment-types .choicebtn ul li:last-child {
+    margin-right: 5px;
+}
+.payment-types .choicebtn ul li input[type="radio"] {
+    width: 18px;
+    height: 18px;
+}
+.payment-types .choicebtn ul li label {
+    font-size: 20px;
+    line-height: normal;
+    opacity: 0.7;
+    padding-left: 15px;
+}
+.payment-types .choicebtn ul li img {
+    position: absolute;
+    right: 25px;
+    top: 8px;
+}
+.payment-types .choicebtn ul li .credit-mt {
+    position: absolute;
+    right: 0px;
+    top: 8px;
+}
+.payment-types .choicebtn ul li .credit-mt img {
+    position: relative;
+}
+.c-detailform .field-box {
+    position: relative;
+}
+.c-detailform .field-box img {
+    position: absolute;
+    right: 16px;
+    top: 22px;
+}
+.c-detailform input {
+    background-color: #fff;
+}
+.c-detailform input:focus {
+    background-color: #fff;
+}
+.c-detailform input::placeholder {
+    opacity: 0.7;
+}
+.innerform input {
+    background-color: #fff;
+}
+.bookdes p {
+    color: #4E3524;
+    font-size: 14px;
+    font-weight: 500;
+}
+.confirimg {
+    text-align: center;
+    margin-top: 54px;
+}
+.confirbtn {
+    text-align: center;
+    margin-top: 100px;
+}
+.confirbtn a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+    display: inline-block;
+}
+.bookbtn .contibtn {
+    font-size: 21px;
+    margin-top: 122px;
+}
+.therap-sec .cancel {
+    cursor: pointer;
+}
+/* Review Package */
+.yourpkglist {
+    padding: 0 60px;
+}
+.selectionpkg img {
+    width: 112px;
+    height: 108px;
+    border-radius: 136px 136px 0px 0px;
+}
+.yourpkglist .choicebtn ul li {
+    margin-top: 20px;
+}
+.yourpkglist .bookingpeople h3 {
+    margin-top: 25px;
+}
+.review-sec .bookbtn .contibtn {
+    font-size: 19px;
+    margin: 107px auto 66px auto;
+}
+/* BookingConfirmation */
+.booking-c-sec {
+    padding: 0 30px 50px 30px;
+}
+.booking-c-sec .payment-head {
+    width: 50%;
+    margin: 0 auto;
+}
+.booking-c-sec p,
+.booking-c-sec .back-pg {
+    color: #4E3524;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 31px;
+    opacity: 0.5;
+    margin-top: 38px;
+}
+.booking-c-sec .back-pg {
+    opacity: 1;
+}
+.booking-c-sec .back-pg:hover {
+    color: #4E3524;
+    text-decoration: underline !important;
+}
+/* my bookings */
+.mybooking-sec .homehead {
+    padding-bottom: 45px;
+}
+.active-booking-box,
+.compl-booking-box {
+    position: relative;
+    border-radius: 93px 0px;
+    background: #FFEADB;
+    padding: 20px !important;
+}
+.compl-booking-box img,
+.active-booking-box img {
+    max-width: 140px;
+    border-radius: 75.5px 75.5px 0px 0px;
+    padding-top: 15px;
+}
+.active-booking-box .booking-no,
+.compl-booking-box .booking-no {
+    color: #DDBC6B;
+    font-weight: 500;
+    line-height: normal;
+}
+.active-booking-box .modal-text,
+.compl-booking-box .modal-text {
+    width: 100%;
+    padding-left: 20px;
+    color: #000;
+}
+.active-booking-box .modal-text h4,
+.compl-booking-box .modal-text h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.active-booking-box .modal-text h2,
+.compl-booking-box .modal-text h2 {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: normal;
+}
+.active-booking-box .modal-text h3,
+.compl-booking-box .modal-text h3 {
+    color: #4E3524;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+.active-booking-box .modal-text span,
+.compl-booking-box .modal-text span {
+    color: #DDBC6B;
+}
+.active-booking-box .modal-text .modal-head,
+.compl-booking-box .modal-text .modal-head {
+    border-bottom: 0.33px solid #4e352481;
+    padding-bottom: 12px;
+    margin-bottom: 19px;
+}
+.active-booking-box .modal-text a.bookbtn,
+.compl-booking-box .modal-text a.bookbtn {
+    display: inline-block;
+    background-color: #4E3524;
+    border: 1px solid #4E3524;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 5px 20px;
+    border-radius: 40px;
+    text-align: center;
+}
+.active-booking-box .modal-text a.bookbtn:hover,
+.compl-booking-box .modal-text a.bookbtn:hover {
+    background-color: transparent;
+    color: #4E3524;
+}
+.status-tag {
+    width: 134px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #1F9D1C !important;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 0px 93px;
+    background: #8DEB8A;
+    padding: 6px 0px;
+}
+.compl-booking-box .status-tag,
+.status-tag.comp {
+    background-color: #FFEDC1 !important;
+    color: #DDBC6B !important;
+}
+/* Booking Details */
+.billingtext .pay-methd-img {
+    width: 35px;
+    height: 35px;
+}
+.bookingdetail-sec .b-d-head .status-tag {
+    top: auto;
+    bottom: 20px;
+    left: auto;
+    right: 60px;
+}
+/* my rofile */
+.profile-form {
+    padding: 0 40px;
+    padding-bottom: 50px;
+}
+.profile-form .personthumb,
+.profile-form .personthumb .file-upload-label {
+    position: relative;
+    width: 171px;
+    height: 204px;
+    cursor: pointer;
+}
+.text-label {
+    cursor: pointer;
+}
+.profile-form .personthumb input {
+    display: none;
+}
+.profile-form .personthumb .file-upload-label {
+    background-color: #DDBC6B;
+    border-radius: 93px 93px 93px 0px;
+    background-image: url('../images/camera.png');
+    background-position: center 30%;
+    background-repeat: no-repeat;
+}
+.profile-form .personthumb .text-label {
+    position: absolute;
+    bottom: 60px;
+    left: 55px;
+    color: #fff;
+    text-decoration: underline;
+}
+.profile-form h5 {
+    color: #000;
+    font-family: "DM Serif Display";
+    font-size: 21px;
+}
+.profile-form .pwd-group {
+    position: relative;
+}
+/* Inbox */
+.chatbox,
+.inbox .homehead {
+    padding: 0 35px;
+}
+.inbox .mainlogo {
+    background-color: #FFEADB;
+    padding: 20px 15px;
+    border-radius: 93px 93px 93px 0px;
+    text-align: center;
+}
+.heal-msg,
+.client-msg {
+    max-width: 550px;
+    position: relative;
+    margin-bottom: 60px;
+}
+.heal-msg-img {
+    background-color: #FFEADB;
+    width: 60.308px;
+    height: 56px;
+    border-radius: 93px 93px 93px 0px;
+    text-align: center;
+    flex-shrink: 0;
+}
+.client-msg-img {
+    border-radius: 93px 93px 93px 0px;
+    flex-shrink: 0;
+}
+.client-msg img {
+    width: 100%;
+}
+.heal-msg-img img {
+    width: 45.231px;
+    height: 36.615px;
+    margin-top: 8px;
+}
+.heal-msg-content,
+.client-msg-content {
+    max-width: 505px;
+    border-radius: 0px 40px 40px 40px;
+    background: #DDBC6B;
+    padding: 8px 16px;
+    color: #fff;
+    margin-left: 13px;
+}
+.client-msg-content {
+    margin-left: 0;
+    margin-right: 13px;
+    background-color: #4E3524;
+}
+.heal-msg-content h6,
+.client-msg-content h6 {
+    font-size: 16px;
+    line-height: 29px;
+    word-break: break-all;
+}
+.heal-msg-time,
+.client-msg-time {
+    position: absolute;
+    right: 30px;
+    color: #4E3524;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.5;
+    margin-top: 12px;
+}
+.client-msg-time {
+    left: 30px;
+}
+.chatbox .chat-box-input {
+    position: fixed;
+    bottom: 0px;
+    background-color: #FFF4EC;
+    max-width: 1130px;
+    width: 100%;
+    padding-bottom: 25px;
+    border-radius: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.chat-box-input i {
+    position: absolute;
+    right: 78px;
+    top: 25px;
+    color: #4E3524;
+    opacity: .5;
+}
+.chat-box-input .send-btn {
+    position: absolute;
+    top: 21px;
+    right: 30px;
+}
+.chatbox:last-child {
+    margin-bottom: 50px;
+}
+.message-field {
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+}
+.message-field:focus {
+    border: none;
+    outline: none;
+}
+/* Help Center */
+.help-center i {
+    color: #DDBC6B;
+    font-size: 20px;
+}
+.help-center .call-btn a {
+    color: #4E3524;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+/* Media Queries */
+@media screen and (max-width: 1366px) {
+    .signupform input,
+    .signupform select,
+    .iti--allow-dropdown {
+        max-width: none;
+    }
+    .signupform .pwd-group {
+        max-width: none;
+        width: 100%;
+        margin: 0;
+    }
+    .login-sec .pwd-group input {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .signupform .pwd-group input {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media screen and (min-width: 1199px) and (max-width: 1366px) {
+    ul.navbar-nav .nav-item {
+        margin-right: 42px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    nav.main-navigation {
+        padding: 32px 20px 11px 20px;
+    }
+    .choicebtn ul li {
+        padding: 5px 10px;
+    }
+    .choicebtn ul li {
+        margin: 0 5px 10px 5px !important;
+    }
+    .yourloca p {
+        font-weight: 500;
+    }
+    .navbar-nav {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 30px 80px !important;
+        text-align: center;
+        background: rgba(255, 244, 236, 0.90);
+        backdrop-filter: blur(5.5px);
+        -webkit-backdrop-filter: blur(5.5px);
+        z-index: 3;
+        border-top: 1px solid rgb(245, 222, 202);
+        box-shadow: 0px 10px 10px rgb(235, 220, 207);
+    }
+    ul.navbar-nav .nav-item {
+        margin: 0px 0px 0px 0;
+        padding: 30px 0;
+    }
+    ul.navbar-nav .nav-item:last-child {
+        border-bottom: none;
+    }
+    ul.navbar-nav .nav-item a.nav-link {
+        font-size: 20px;
+    }
+    .btn-close {
+        position: absolute;
+        top: 40px;
+        right: 2.5%;
+        opacity: 0.4 !important;
+    }
+    /* Checkout */
+    .checkout-sec .breadcrumb-bar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* inbox */
+    .chatbox .chat-box-input {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .inner-bar {
+        display: inline-block !important;
+    }
+    /* Person Select */
+    .personselect .breadcrumb-bar {
+        padding: 30px 0px 0 0px;
+    }
+    /* index */
+    .splash-sec {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    /* Login */
+    .login-sec {
+        padding-bottom: 82px;
+    }
+    .loginsystem h1 {
+        min-width: 453px;
+        margin: 300px auto 95px auto;
+        text-align: left;
+    }
+    .loginsystem h1 img {
+        display: inline-block !important;
+    }
+    .login-head {
+        padding: 101px 0 133px 0;
+    }
+    .loginform button {
+        margin: 131px auto 0 auto;
+    }
+    .loginform p a {
+        margin-top: 25px;
+        font-size: 17px;
+    }
+    .continue-div span {
+        font-size: 17px;
+    }
+    .social-list {
+        padding-top: 49px;
+    }
+    /* Signup */
+    .signupform form {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .pandcp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .signupform input#choosloc {
+        position: relative;
+        display: block;
+        max-width: none;
+        text-align: center;
+    }
+    .signup-form-fields {
+        max-width: 730px;
+        margin: auto;
+    }
+    /* forgetsec */
+    .forgetsec .breadcrumb-bar {
+        width: max-content;
+        padding: 30px 60px 0 60px;
+    }
+    .login-head h1 {
+        text-align: left;
+    }
+    .descrip {
+        margin: 47px 0 170px 0;
+    }
+    .forgetsec .descrip p {
+        opacity: 0.5;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .forgetsec .login-head {
+        padding: 70px 0 0 0;
+    }
+    .forgetform .sub-btn button[type="submit"] {
+        margin-top: 310px;
+    }
+    /* otp verify */
+    .otp-verify-sec {
+        padding: 0 0 110px 0;
+    }
+    .otp-verify-head {
+        padding-bottom: 0;
+    }
+    .otp-verify-head .descrip {
+        margin: 37px 0 170px 0;
+    }
+    .resend-descrip {
+        margin-bottom: 437px;
+    }
+    .resend-descrip p {
+        font-size: 16px;
+    }
+    /* new pwd set */
+    .newpwd-sec {
+        padding-top: 0px;
+        padding-bottom: 110px;
+    }
+    .newpwdform button[type="submit"] {
+        margin-top: 225px;
+    }
+    .otp-verify-head .descrip p {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    /* pwd-change success */
+    .pwdsucc {
+        padding: 0 0 110px 0;
+    }
+    .pwdsucc-head {
+        padding: 0;
+    }
+    .pwdsucc .descrip p {
+        max-width: 45%;
+        margin: 0 auto;
+    }
+    .pwdsucc .reset-succ a {
+        margin-top: 212px;
+    }
+    /* home */
+    .c-box {
+        width: 281px !important;
+        margin: 15.5px;
+    }
+    .home .descrip {
+        margin-bottom: 85px;
+    }
+    /* Customize Apointment */
+    .appt-cat {
+        width: 281px !important;
+    }
+    .customizeapptform {
+        padding: 70px 30px 0 30px;
+    }
+    /* Therapist Selection */
+    .therap-sec .login-head {
+        padding: 70px 0 0 0;
+    }
+    /* Review Package */
+    .mainlist .profileimg {
+        width: 98.056px;
+        height: 117.386px;
+    }
+    .review-sec .homehead {
+        padding: 70px 0;
+    }
+    /* Booking Confirmation */
+    .booking-c-sec .payment-head {
+        width: 75%;
+    }
+    /* Inbox */
+    .inbox .mainlogo {
+        width: 109.629px;
+        height: 100.974px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    .compliimg span {
+        right: 92px;
+    }
+}
+@media(max-width: 992px) {
+    /* Signup */
+    .signupform input,
+    .signupform select,
+    .iti--allow-dropdown {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .signupform .pwd-group input {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    /* Person Select */
+    .personselect .breadcrumb-bar {
+        padding: 30px 0 0 0;
+    }
+    .firstperson {
+        width: 126px;
+        height: 151px;
+    }
+    .firedselect {
+        width: 281px;
+        height: 117px;
+    }
+    .firstperson {
+        padding: 20px 10px !important;
+    }
+    .firedselect {
+        padding: 0 !important;
+        margin-top: 30px;
+    }
+    .firstperson h3,
+    .firedselect h3 {
+        font-size: 21px;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+    .person-s-img {
+        height: 34px;
+    }
+    .locmapmain .innerpad {
+        max-width: 571px;
+    }
+    /* Review Package */
+    .review-sec .rateaxp ul li h4 {
+        padding-left: 0;
+    }
+    .durleft h3 {
+        margin-bottom: 0px;
+    }
+    .yourpkglist .choicebtn ul li {
+        margin-bottom: 0px !important;
+    }
+    .brdr {
+        border: none;
+    }
+    .dur-dandt {
+        padding: 35px 0 0 0;
+        border-top: 1px solid #4E3524;
+        margin-top: 35px !important;
+    }
+    .mainlist .datetime {
+        padding: 0 0 35px 0;
+        border-bottom: 1px solid #4E3524;
+        margin-bottom: 35px !important;
+    }
+    .review-sec .row {
+        margin: 0;
+    }
+    .review-sec .col-12 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* Checkout */
+    .paymentform {
+        max-width: none;
+        margin-bottom: 50px;
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1366px) {
+    .signupmain {
+        padding: 0 60px;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* Main navigation */
+    .navbar-nav {
+        padding: 20px 50px !important;
+    }
+    .loginsystem ul li a,
+    .loginform button,
+    .signupform button,
+    .forgetform .sub-btn button,
+    .newpwdform button,
+    .reset-succ a,
+    .newpwdform.reset-succ a,
+    .contibtn,
+    .loginsystem ul li a.therapist_signup {
+        padding: 12px 0px;
+        max-width: 360px;
+        font-size: 19px;
+    }
+    /* login */
+    .sitelogo a img {
+        width: 194px;
+        height: 150px;
+    }
+    .loginsystem h1 {
+        font-size: 48px;
+        line-height: 50px;
+    }
+    .login-head h1,
+    .signupsec h1,
+    .otp-verify-head h1,
+    .pwdsucc-head h1,
+    .homehead h1,
+    .personselect-head h1,
+    .customizeappt-head h1,
+    .checkout-head h1,
+    .payment-head h1,
+    .navbar-nav h1,
+    .b-d-head h1 {
+        font-size: 43px;
+        line-height: 50px;
+    }
+    /* signup */
+    .signupmain {
+        padding: 0 30px;
+    }
+    .pandcp.choose-loc {
+        flex-direction: row;
+        position: relative;
+    }
+    .signupform input,
+    .signupform select,
+    .iti--allow-dropdown {
+        max-width: none;
+    }
+    .signupform .pwd-group {
+        max-width: none;
+        margin: 0;
+    }
+    .iti__selected-flag {
+        top: -8px;
+    }
+    /* forgetsec */
+    .forgetsec .login-head {
+        padding: 70px 40px 0 40px;
+    }
+    .forgetform {
+        padding: 0;
+    }
+    /* opt-verify */
+    .otp-verify-head {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    /* new-pwd set */
+    .newpwd-sec .otp-verify-head {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .pwdsucc-head {
+        padding-top: 100px;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    /* Home */
+    .c-box {
+        width: 220px !important;
+        margin: 9px;
+    }
+    .homehead .leftstar,
+    .homehead .rightstar {
+        display: none;
+    }
+    /* Customize appointment */
+    .appt-cat {
+        width: 220px !important;
+    }
+    .appt-cat input[type="radio"]:checked+label.mainsteps::before {
+        right: 10px;
+    }
+    /* DateTime Picker */
+    .formdate .dateAndTimePicker {
+        padding-bottom: 50px;
+    }
+    .datetime .homehead {
+        padding: 70px 0 70px 0;
+    }
+    .dateAndTimePicker .choicebtn {
+        margin: 40px auto 0 auto;
+    }
+    /* Review Package */
+    .yourpkglist {
+        padding: 0 30px
+    }
+    .mainlist:first-child .editbtn {
+        top: 26px;
+        position: absolute;
+        right: 0;
+    }
+    /* My Profile */
+    .profile-form .personthumb,
+    .profile-form .personthumb .file-upload-label {
+        position: relative;
+        width: 135px;
+        height: 170px;
+    }
+    .profile-form .personthumb .text-label {
+        bottom: 45px;
+        left: 39px;
+    }
+}
+@media (max-width:575px) {
+    /* login */
+    .login-head,
+    .checkout-head,
+    .payment-head {
+        text-align: left;
+    }
+    #verificode input {
+        width: 77.153px;
+        height: 75px;
+        transition: all 0.3s ease;
+    }
+    .loginsystem h1 {
+        max-width: 100%;
+        min-width: 1px;
+        margin: 180px auto 50px 20px;
+    }
+    .otp-verify-head {
+        text-align: left;
+    }
+    .otp-verify-head .descrip p {
+        margin: 0;
+    }
+    .forgetform {
+        text-align: center;
+    }
+    /* Home */
+    .c-box {
+        width: 190px !important;
+        margin: 9px;
+    }
+    .main-slider-box {
+        padding: 0;
+    }
+    .homehead {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    /* Signup */
+    .continue-div:after,
+    .continue-div:before {
+        width: 50%;
+    }
+    .forgetsec .breadcrumb-bar {
+        padding: 30px 20px 0 20px;
+    }
+    .mapdiv iframe {
+        width: 300px;
+        height: 300px;
+        border-radius: 12px;
+        margin-top: 15px;
+    }
+    .forgetsec .descrip p {
+        margin: 0;
+    }
+    /* new-pwd set */
+    .newpwd-sec .descrip p {
+        margin: 0;
+    }
+    .breadcrumb-bar.inner-bar {
+        padding: 30px 35px 0 35px;
+    }
+    .customizeappt .breadcrumb-bar {
+        padding: 30px 0 0 0;
+    }
+    .newpwdform button[type="submit"] {
+        margin-top: 190px;
+    }
+    .pwdsucc-head {
+        text-align: left;
+    }
+    .pwdsucc-head .descrip p {
+        max-width: none;
+        margin: 0;
+    }
+    .reset-succ {
+        text-align: center;
+    }
+    /* Person Select */
+    .personselect-head {
+        padding-bottom: 50px;
+    }
+    .firstperson,
+    .firedselect {
+        margin: 30px 14.5px 0 14.5px;
+    }
+    /* Customize appointment */
+    .appt-cat {
+        width: 156px !important;
+    }
+    .customizeappt-head {
+        padding: 50px 0;
+    }
+    .customizeapptform {
+        padding: 20px 0px 0 0px;
+    }
+    .formfields {
+        padding: 20px 0;
+    }
+    .customizeapptform .contibtn {
+        margin-top: 50px;
+    }
+    .customizeappt .heading p {
+        font-size: 14px;
+    }
+    .appt-cat input[type="radio"]:checked+label.mainsteps::before {
+        width: 30px;
+        height: 30px;
+        right: 5px;
+        top: 10px;
+    }
+    /* DateTime Selection */
+    .table-condensed {
+        width: 380px;
+    }
+    #datepicker {
+        width: 380px;
+    }
+    .datetime .homehead {
+        padding: 50px 0 50px 0;
+    }
+    /* Therapist Select */
+    .maintherap {
+        width: 180px;
+    }
+    .personthumb img {
+        height: auto;
+    }
+    .rateaxp ul li {
+        padding: 0 5px;
+    }
+    .selectionpkg .modal-text p {
+        font-size: 10px;
+    }
+    .selectionpkg .modal-text h4 {
+        font-size: 14px;
+    }
+    .therap-sec .login-head,
+    .b-d-head {
+        padding: 50px 30px 0 30px;
+    }
+    /* Therapist Selection */
+    .btnlink .proficebtn a {
+        font-size: 11px;
+    }
+    .rateaxp ul li span,
+    .rateaxp ul li h4 {
+        font-size: 13px;
+    }
+    .btnlink .bookbtn a {
+        font-size: 11px;
+    }
+    .locmapmain.showme .innerpad {
+        right: 0;
+        height: 80vh;
+        top: auto;
+        bottom: 0;
+        padding: 30px 40px;
+    }
+    .innermodal img {
+        width: 78px;
+        height: 99px;
+    }
+    .locmapmain .innerpad {
+        border-radius: 36px 44px 0px 0px;
+    }
+    .therap-sec .homehead h1 {
+        padding-bottom: 50px;
+    }
+    /* Review Package */
+    .review-sec .homehead {
+        padding: 50px 35px;
+    }
+    .editbtn a img {
+        width: 14px;
+        height: 14px;
+    }
+    .review-sec .selectionpkg .modal-text p,
+    .durinner h2,
+    .choicebtn ul li label {
+        font-size: 12px;
+    }
+    .review-sec .therapright h3,
+    .durleft h3,
+    .billingtext h2,
+    .review-sec .bookbtn .contibtn {
+        font-size: 17px;
+    }
+    .mainlist .profileimg {
+        width: 75.734px;
+        height: 90.664px;
+    }
+    .therapright {
+        padding-left: 25px;
+    }
+    .payment-head {
+        padding: 50px 0;
+    }
+    .payment-types .choicebtn ul li {
+        padding: 15px 20px;
+    }
+    .c-detailform input {
+        font-size: 16px;
+        height: 55px;
+    }
+    .payment-types .choicebtn ul li label {
+        font-size: 16px;
+        padding-left: 5px;
+    }
+    .payment-types .choicebtn ul li .credit-mt {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .payment-types .choicebtn ul li img {
+        top: 12px;
+        width: 30px;
+        height: 30px;
+    }
+    .c-detailform .field-box img {
+        top: 15px;
+    }
+    /* Booking Confirmation */
+    .booking-c-sec .payment-head {
+        margin: 0;
+        text-align: left;
+    }
+    .booking-c-sec p {
+        margin-top: 10px;
+    }
+    .booking-c-sec img {
+        width: 188px;
+        margin-bottom: 50px;
+    }
+    .booking-c-sec .payment-head {
+        width: 100%;
+    }
+    /* my bookings */
+    .compl-booking-box img,
+    .active-booking-box img {
+        max-width: 112px;
+    }
+    .active-booking-box .modal-text h4,
+    .compl-booking-box .modal-text h4 {
+        font-size: 12px;
+    }
+    .active-booking-box .modal-text h2,
+    .compl-booking-box .modal-text h2 {
+        font-size: 14px;
+    }
+    .active-booking-box .modal-text h3,
+    .compl-booking-box .modal-text h3 {
+        font-size: 11px;
+    }
+    .active-booking-box .modal-text a.bookbtn,
+    .compl-booking-box .modal-text a.bookbtn {
+        font-size: 12px;
+    }
+    .status-tag {
+        width: 99px;
+        font-size: 10px !important;
+    }
+    /* Booking Details */
+    .b-d-head h1 {
+        width: 50%;
+        text-align: left;
+    }
+    .bookingdetail-sec .checkoutsummary h3 {
+        font-size: 17px;
+    }
+    .bookingdetail-sec .checkoutsummary ul li p,
+    .bookingdetail-sec .checkoutsummary ul li span {
+        font-size: 14px;
+    }
+    .bookingdetail-sec .b-d-head .status-tag {
+        bottom: 70px;
+        right: 30px;
+    }
+    .profile-form {
+        padding: 0 20px;
+    }
+    .heal-msg-content h6,
+    .client-msg-content h6 {
+        font-size: 14px;
+    }
+}
+@media (max-width:475px) {
+    /* otp verify */
+    #verificode input {
+        width: 67px;
+        height: 59px;
+        margin: 0 8px;
+    }
+    /* DateTime Selection */
+    .table-condensed {
+        width: 330px;
+    }
+    #datepicker {
+        width: 330px;
+    }
+}
+@media (max-width:425px) {
+    /* index */
+    .loginsystem ul li:nth-child(2) a {
+        margin-top: 50px;
+    }
+    /* nav */
+    .yourloca i {
+        margin-right: 5px;
+    }
+    /* Main navigation */
+    .navbar-nav {
+        padding: 10px 30px !important;
+    }
+    .nav-item {
+        padding: 15px 0 !important;
+    }
+    ul.navbar-nav .nav-item a.nav-link {
+        font-size: 16px;
+    }
+    .btn-close {
+        width: 10px !important;
+        height: 10px !important;
+        right: 8%;
+    }
+    .splash-sec {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    /* login */
+    .login-sec {
+        padding-top: 10px;
+    }
+    img.inner-pg-logo,
+    .mainlogo a img {
+        width: 82px;
+        height: 64px;
+        transition: all 0.5s ease;
+    }
+    .loginsystem h1 {
+        font-size: 40px;
+        line-height: 43px;
+    }
+    .loginsystem ul li a,
+    .loginform button,
+    .signupform button,
+    .forgetform .sub-btn button,
+    .newpwdform .sub-btn button,
+    .reset-succ a,
+    .newpwdform.reset-succ a,
+    .contibtn,
+    .loginsystem ul li a.therapist_signup {
+        width: 270px;
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+    .login-head,
+    .b-d-head {
+        text-align: left;
+        padding-top: 37px;
+    }
+    .login-head h1,
+    .signupsec h1,
+    .otp-verify-head h1,
+    .pwdsucc-head h1,
+    .homehead h1,
+    .personselect-head h1,
+    .customizeappt-head h1,
+    .checkout-head h1,
+    .payment-head h1,
+    .navbar-nav h1,
+    .b-d-head h1 {
+        font-size: 37px;
+        line-height: 43px;
+        text-align: left;
+    }
+    .loginform input,
+    .loginform select,
+    .innerpad input,
+    .formfield input,
+    .formdate input,
+    .checkoutform input,
+    .signupform input,
+    .signupform select,
+    .forgetform input,
+    .forgetform select,
+    .newpwdform input,
+    .customizeapptform input,
+    .checkout input,
+    .c-detailform input,
+    .profile-form input,
+    .profile-form select,
+    .message-field,
+    textarea {
+        font-size: 14px;
+        margin: 0 auto 16px auto;
+        padding: 13px 25px;
+        border-radius: 12px;
+        height: 43px;
+    }
+    input[type=tel]#phone {
+        margin-bottom: 16px !important;
+    }
+    span.pwd-show-btn {
+        font-size: 12px;
+        top: 15px;
+        right: 45px;
+    }
+    .loginform span {
+        padding: 0 12px;
+    }
+    .loginform span a {
+        font-size: 10px;
+    }
+    .loginform p a {
+        font-size: 12px;
+    }
+    .loginform button {
+        margin-top: 50px;
+    }
+    /* Signup */
+    .signupform {
+        padding-top: 0px;
+        padding-bottom: 60px
+    }
+    .iti__selected-flag {
+        top: -8px;
+        padding-left: 45px !important;
+    }
+    .loginform p a,
+    .signupform p a {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .loginform p a img,
+    .signupform p a img {
+        width: 15px;
+        height: 5px;
+        margin-left: 4px;
+    }
+    .signupform button {
+        margin-top: 25px;
+    }
+    .continue-div:after,
+    .continue-div:before {
+        width: 40%;
+    }
+    .continue-div span {
+        font-size: 12px;
+    }
+    .social-list {
+        padding-top: 34px;
+    }
+    /* Forget password */
+    .forgetsec {
+        padding: 0px 0 48px 0
+    }
+    .descrip {
+        margin: 21px 0 94px 0;
+    }
+    .descrip p {
+        font-size: 14px !important;
+        line-height: normal !important;
+        text-align: left;
+    }
+    .forgetform {
+        text-align: left;
+    }
+    .forgetform .sub-btn button[type="submit"] {
+        margin: 100px auto 0 auto;
+    }
+    .sub-btn {
+        text-align: center
+    }
+    /* verify-otp */
+    .otp-verify-sec {
+        padding-bottom: 35px;
+    }
+    .otp-verify-head .descrip {
+        margin: 13px 0 86px 0
+    }
+    .resend-descrip {
+        margin: 25px 0 250px 0;
+    }
+    .resend-descrip p {
+        font-size: 14px;
+    }
+    /* new-pwd set */
+    .newpwd-sec {
+        padding-bottom: 50px;
+        ;
+    }
+    .otp-verify-head .descrip p {
+        max-width: none;
+    }
+    /* pwd-set succ */
+    .pwdsucc {
+        padding-bottom: 30px;
+    }
+    .pwdsucc-head {
+        padding-top: 70px;
+    }
+    .pwdsucc-head .descrip {
+        margin-top: 13px;
+    }
+    .pwdsucc .reset-succ a {
+        margin-top: 182px;
+    }
+    .reset-img img {
+        width: 189.846px;
+        height: 159.621px;
+    }
+    /* Home */
+    .home-sec {
+        margin-bottom: 50px;
+    }
+    .yourloca p {
+        font-size: 12px;
+    }
+    .c-box {
+        width: 156px !important;
+        margin: 9px;
+    }
+    .homehead {
+        text-align: left;
+    }
+    .mainsteps .heading h3 {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .home .descrip {
+        margin-bottom: 40px;
+    }
+    /* Customize appointment */
+    .appt-cat {
+        margin: 0 5px 30px 5px;
+    }
+    .customizeappt .heading h3 {
+        font-size: 17px;
+        padding: 10px 0 0 0;
+    }
+    /* DateTime Selection */
+    .formdate .contibtn {
+        margin-top: 80px;
+    }
+    .table-condensed {
+        width: 300px !important;
+    }
+    #datepicker {
+        width: 300px !important;
+    }
+    .profileimg {
+        width: 75.734px;
+        height: 90.664px;
+    }
+    .therapy-content h3,
+    .therapright h3 {
+        font-size: 16px;
+    }
+    .tabsdetail .nav-pills .nav-link {
+        padding: 3px 13px;
+        margin: 0 6px;
+    }
+    .bookingpeople h3 {
+        font-size: 14px;
+    }
+    .abouttherap h2 {
+        font-size: 17px;
+    }
+    .abouttherap p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .bookbtn .contibtn {
+        font-size: 16px;
+        padding: 8px 10px;
+    }
+    .innermodal .col-9 {
+        padding-left: 0;
+    }
+    .modal-text h4,
+    .melissatext ul li {
+        font-size: 12px;
+    }
+    .modal-text p,
+    .complitext h3 {
+        font-size: 10px;
+    }
+    /* Checkout */
+    .checkout-sec {
+        padding-bottom: 50px;
+    }
+    .checkout-head,
+    .payment-head {
+        padding: 50px 0;
+    }
+    .checkout input[type="number"] {
+        padding-left: 80px;
+    }
+    .checkout .promocode span.gift-icon img,
+    .checkout .promocode span.promocode-icon img {
+        width: 20px;
+        height: 20px;
+        top: 12px;
+    }
+    .checkout .promocode span.gift-icon img {
+        left: 15px;
+    }
+    .checkout .promocode span.promocode-icon img {
+        left: 50px
+    }
+    .checkoutform h4,
+    .checkoutsummary h3 {
+        font-size: 17px;
+    }
+    .checkoutsummary ul li {
+        padding: 10px 0
+    }
+    .checkoutsummary ul li p,
+    .checkoutsummary ul li span {
+        font-size: 14px;
+    }
+    .chk-subtotal {
+        padding: 10px 0 !important;
+    }
+    .chk-subtotal p {
+        font-size: 17px !important;
+    }
+    .brdr-btm {
+        border-bottom: 0.1px solid #4E3524;
+    }
+    .checkout-btn .contibtn {
+        margin-top: 70px;
+    }
+    /* Payment */
+    .payment-types .choicebtn ul li {
+        padding: 10px 20px;
+    }
+    .payment-types .choicebtn ul li label {
+        font-size: 14px;
+    }
+    .payment-types .choicebtn ul li img {
+        top: 8px;
+        right: 10px;
+    }
+    .brdr-btm {
+        border: none;
+    }
+    .c-detailform .field-box img {
+        top: 9px
+    }
+    /* My booking */
+    .mybooking-sec .tabsdetail .nav-pills .nav-link {
+        padding: 7px 20px;
+    }
+    /* Booking Detail */
+    .b-d-head h1 {
+        padding-top: 10px;
+    }
+    .bookingdetail-sec .b-d-head .status-tag {
+        bottom: 55px;
+    }
+    .profile-form .personthumb,
+    .profile-form .personthumb .file-upload-label {
+        width: 102px;
+        height: 127px;
+    }
+    .profile-form .personthumb .text-label {
+        font-size: 11px;
+        bottom: 27px;
+        left: 33px;
+    }
+    /* inbox */
+    .inbox .mainlogo {
+        width: 76px;
+        height: 70px;
+    }
+    .heal-msg-content h6,
+    .client-msg-content h6 {
+        font-size: 12px;
+    }
+    .heal-msg-time,
+    .client-msg-time {
+        font-size: 10px;
+    }
+    .chatbox .chat-box-input {
+        padding-bottom: 0;
+    }
+    .chat-box-input i {
+        top: 19px;
+        right: 50px;
+    }
+    .chat-box-input .send-btn {
+        right: 10px;
+        top: 14px;
+    }
+    .chat-box-input .send-btn svg {
+        width: 18px;
+    }
+    .message-field {
+        height: 52px;
+    }
+    .message-field::placeholder {
+        font-size: 14px;
+    }
+    .heal-msg-img {
+        width: 28px;
+        height: 26px;
+    }
+    .client-msg img {
+        width: 28px;
+        height: 26px;
+    }
+    .heal-msg-img img {
+        width: 21px;
+        height: 17px;
+        margin-top: 0px;
+    }
+    .chatbox,
+    .inbox .homehead {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .help-center .bookbtn h5 {
+        font-size: 16px;
+    }
+}
+@media (max-width:390px) {
+    /* Menu_icon */
+    .fa-user-circle-o {
+        font-size: 28px;
+    }
+    nav.main-navigation {
+        padding: 15px;
+    }
+    .breadcrumb-bar {
+        padding: 30px 20px 0 20px;
+    }
+    .containe {
+        padding: 0 30px;
+    }
+    span.pwd-show-btn {
+        right: 20px;
+    }
+    .iti__selected-flag {
+        top: -8px;
+        padding-left: 30px !important;
+    }
+    .iti--allow-dropdown .iti__flag-container {
+        left: 0 !important;
+    }
+    .loginform input,
+    .loginform select,
+    .innerpad input,
+    .formfield input,
+    .formdate input,
+    .checkoutform input,
+    .signupform input,
+    .signupform select,
+    .forgetform input,
+    .forgetform select,
+    .newpwdform input,
+    .customizeapptform input,
+    .checkout input {
+        max-width: 310px !important;
+    }
+    .loginform .pwd-group,
+    .newpwdform .pwd-group {
+        max-width: 310px;
+    }
+    .loginform input {
+        margin-left: 0;
+    }
+    /* Therapist Select */
+    .maintherap {
+        width: 169px;
+    }
+    /* Checkput */
+    .checkout-sec {
+        padding: 0 25px 50px 25px;
+    }
+    .loginsystem ul li a,
+    .loginform button,
+    .signupform button,
+    .forgetform .sub-btn button,
+    .newpwdform button,
+    .reset-succ a,
+    .newpwdform.reset-succ a,
+    .contibtn,
+    .loginsystem ul li a.therapist_signup {
+        max-width: 200px;
+        padding: 10px 10px;
+    }
+    .checkoutform h4 {
+        padding-left: 0;
+    }
+    /* Customizeappt */
+    .main-sec {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* Datetime */
+    .table-condensed {
+        width: 300px !important;
+    }
+    #datepicker {
+        width: 300px !important;
+    }
+    /* Forgot Pwd */
+    .forgetsec .login-head,
+    .b-d-head {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .breadcrumb-bar.inner-bar {
+        padding: 30px 0px 0 20px;
+    }
+    /* Home */
+    .homehead {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .home-sec::after {
+        background: linear-gradient(180deg, rgba(255, 244, 236, 0.85) 0%, #FFF4EC 28%);
+    }
+    /* Login */
+    .login-sec .contain,
+    .forgetsec .contain,
+    .newpwd-sec .contain {
+        padding: 0 20px;
+    }
+    .login-head {
+        padding-bottom: 70px;
+    }
+    .social-list ul li a {
+        width: 35px;
+        height: 35px;
+    }
+    .social-list ul li {
+        margin-right: 20px;
+    }
+    /* New Pwd */
+    span.pwd-show-btn {
+        font-size: 10px;
+        right: 15px;
+    }
+    /* New Pwd Succ */
+    .pwdsucc-head {
+        padding-left: 20px;
+    }
+    .pwdsucc .reset-succ a {
+        margin-top: 100px
+    }
+    /* otp verification*/
+    .otp-verify-head {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    #verificode input {
+        width: 2px;
+        height: 50px;
+        margin: 0 5px;
+    }
+    /* Payment */
+    .payment-sec {
+        padding: 0 20px 50px 20px;
+    }
+    .payment-types .choicebtn ul li label {
+        font-size: 10px;
+        padding-left: 0 !important;
+    }
+    .payment-types .choicebtn ul li {
+        padding-left: 10px;
+        margin: 0 0 10px 0;
+    }
+    .payment-types .choicebtn ul li img {
+        width: 20px;
+        height: 20px;
+        top: 10px;
+    }
+    .c-detailform input {
+        padding: 15px 10px;
+        font-size: 12px;
+    }
+    /* personselect */
+    .firstperson {
+        width: 100px;
+    }
+    .firedselect {
+        width: 250px;
+    }
+    .selectperson {
+        padding-bottom: 50px;
+    }
+    /* reviewpckg */
+    .review-sec .homehead {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .review-sec .choicebtn ul li label {
+        font-size: 9.5px;
+    }
+    .review-sec .durinner h2 {
+        font-size: 10px;
+    }
+    /* Signp sec */
+    .signupsec {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .signupmain {
+        padding: 0;
+    }
+    .innerpad input,
+    .signupinnerpad input {
+        max-width: 250px;
+        height: 40px;
+    }
+    .mapdiv iframe {
+        width: 250px;
+        height: 300px;
+    }
+    .signupinnerpad span .fa-map-marker {
+        top: 13px;
+    }
+    .locmapmain.showme .innerpad {
+        padding: 20px 20px;
+    }
+    .cancel i {
+        right: 0;
+    }
+    .tabsdetail .nav-pills .nav-link {
+        padding: 3px 8px;
+        margin: 0 6px;
+    }
+    /* Profile-form */
+    .profile-form span.pwd-show-btn {
+        right: 25px
+    }
+}
+@media (max-width:375px) {
+    .maintherap {
+        width: 110px;
+    }
+    .rateaxp ul li::before {
+        content: none;
+    }
+    .rateaxp ul li h4 {
+        padding-left: 0;
+    }
+    .btnlink .proficebtn a {
+        padding-left: 5px;
+    }
+    /* Datetime */
+    .table-condensed {
+        width: 200px !important;
+    }
+    #datepicker {
+        width: 224px !important;
+    }
+}
